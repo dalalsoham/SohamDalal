@@ -10,8 +10,12 @@ import {
 import {
   SiFirebase,
   SiTailwindcss,
-  SiMongoose
+  SiMongoose,
+  SiTsnode,
+  SiBootstrap,
 } from "react-icons/si";
+
+import { TbBrandNextjs } from "react-icons/tb";
 
 import { 
   BsFiletypeXml
@@ -39,10 +43,19 @@ function Techstack() {
         <SiMongoose />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
+        <SiTsnode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <TbBrandNextjs />
       </Col>
     </Row>
   );
